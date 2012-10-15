@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface popViewController : UIViewController
+@interface popViewController : UIViewController <UIPopoverControllerDelegate>
+{
+    IBOutlet UIButton *popButton;
+}
 
 @end

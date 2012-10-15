@@ -18,6 +18,8 @@
 		8F25A31B162C441700BEB429 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F25A31A162C441700BEB429 /* Default-568h@2x.png */; };
 		8F25A31E162C441700BEB429 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F25A31C162C441700BEB429 /* MainStoryboard.storyboard */; };
 		8F25A321162C441700BEB429 /* popViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A320162C441700BEB429 /* popViewController.m */; };
+		8F25A329162C447F00BEB429 /* UIPopover+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A328162C447F00BEB429 /* UIPopover+iPhone.m */; };
+		8F25A32C162C451C00BEB429 /* popTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25A32B162C451C00BEB429 /* popTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		8F25A31D162C441700BEB429 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8F25A31F162C441700BEB429 /* popViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popViewController.h; sourceTree = "<group>"; };
 		8F25A320162C441700BEB429 /* popViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popViewController.m; sourceTree = "<group>"; };
+		8F25A327162C447F00BEB429 /* UIPopover+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopover+iPhone.h"; sourceTree = "<group>"; };
+		8F25A328162C447F00BEB429 /* UIPopover+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopover+iPhone.m"; sourceTree = "<group>"; };
+		8F25A32A162C451B00BEB429 /* popTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popTableViewController.h; sourceTree = "<group>"; };
+		8F25A32B162C451C00BEB429 /* popTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				8F25A31F162C441700BEB429 /* popViewController.h */,
 				8F25A320162C441700BEB429 /* popViewController.m */,
 				8F25A30B162C441600BEB429 /* Supporting Files */,
+				8F25A327162C447F00BEB429 /* UIPopover+iPhone.h */,
+				8F25A328162C447F00BEB429 /* UIPopover+iPhone.m */,
+				8F25A32A162C451B00BEB429 /* popTableViewController.h */,
+				8F25A32B162C451C00BEB429 /* popTableViewController.m */,
 			);
 			path = PopoverDemo2;
 			sourceTree = "<group>";
@@ -177,6 +187,8 @@
 				8F25A311162C441600BEB429 /* main.m in Sources */,
 				8F25A315162C441700BEB429 /* popAppDelegate.m in Sources */,
 				8F25A321162C441700BEB429 /* popViewController.m in Sources */,
+				8F25A329162C447F00BEB429 /* UIPopover+iPhone.m in Sources */,
+				8F25A32C162C451C00BEB429 /* popTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
